@@ -1,8 +1,8 @@
 {
-  "name": "",
+  "name": "SpeakerCentral",
   "version": "1.0.0",
   "description": "",
-  "author": "Viktor Moskalev",
+  "author": "Company-Smart-ui ",
   "license": "ISC",
   "dependencies": {
     "animate.css": "^4.1.1",

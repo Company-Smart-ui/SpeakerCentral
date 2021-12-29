@@ -85,7 +85,7 @@ $nav-hover:rgb(170, 81, 81);
             display: none;
         }
 
-        &__row {
+        &_row {
             transition: 0.2s;
             background-color: $nav-btn-color;
             height: 3px;
@@ -93,7 +93,7 @@ $nav-hover:rgb(170, 81, 81);
 
         }
 
-        &__row+&__row {
+        &_row+&_row {
             margin-top: 7px;
         }
     }
@@ -120,21 +120,21 @@ $nav-hover:rgb(170, 81, 81);
 
             &__btn {
 
-                &__row {
+                &_row {
                     margin: 0 !important;
                 }
 
-                &__row:nth-child(1) {
+                &_row:nth-child(1) {
                     transform: translateY(100%) rotate(-45deg);
                 }
 
-                &__row:nth-child(2) {
+                &_row:nth-child(2) {
 
                     opacity: 0;
                     width: 0;
                 }
 
-                &__row:nth-child(3) {
+                &_row:nth-child(3) {
                     transform: translateY(-100%) rotate(45deg);
                 }
             }
