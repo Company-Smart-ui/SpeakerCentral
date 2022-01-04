@@ -1,4 +1,4 @@
-$header-bgc:rgb(58, 32, 6);
+$header-bgc:rgb(255, 255, 255);
 @mixin nav-desktop  { 
     @include lg { 
         @content 
@@ -29,24 +29,22 @@ $header-bgc:rgb(58, 32, 6);
     &__content {
         flex-wrap: wrap;  
         padding: 20px 0;
-        display: flex;
         justify-content: space-between;
         align-items: center;
     } 
     &__logo {
-        width: 50px;
+        max-width: 400px;
+        width: 100%;
         img {
-            object-fit: contain;
             width: 100%;
-            height: auto;
         } 
     } 
     &__bottom{ 
         position: absolute; 
         display: flex;
         justify-content: center;
-         left: 0;
-         right: 0;
+        left: 0;
+        right: 0;
         bottom: -80px;
         pointer-events: none;
         opacity: 0;

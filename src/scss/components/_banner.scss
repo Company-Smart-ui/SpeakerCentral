@@ -1,0 +1,76 @@
+.banner{
+  background-image: url(../images/bg-banner.jpg);
+  background-size: cover;
+  background-position: top left;
+  color: #fff;
+  height: 100vh;
+  @include md{
+    background-size: contain;
+    height: 700px;
+  }
+  &-bg{
+    left: 0;
+    background: #000;
+    opacity: .43;
+    z-index: 1;
+  }
+  &__content{
+    z-index: 2;
+    padding-top: 135px;
+    @include md{
+      padding-top: 160px; 
+    }
+  }
+  h1{
+    font-size: 30px;
+    line-height: 1;
+    @include sm{
+      font-size: 44px;
+    }
+    @include md{
+      font-size: 50px;
+    }
+    @include lg{
+      font-size: 60px;
+    }
+    @include xxl{
+      font-size: 77px;
+    }
+  }
+  &__sub-title{
+    @include sm{
+      font-size: 22px;
+    }
+    @include md{
+      font-size: 28px;
+    }
+    @include lg{
+      font-size: 36px;
+    }
+    @include xxl{
+      font-size: 55px;
+    }
+  }
+  &__search{
+    max-width: 1100px;
+    background: rgba(255, 255, 255, .9);
+    border-radius: 12px;
+    margin: 0 auto;
+    button{
+      background: linear-gradient(-229deg,#3851cd 1px,#dc38f6 59%,#9037f8 99%);
+      border-radius: 12px;
+    }
+    svg{
+      width: 22px;
+      height: 22px;
+      @include md{
+        width: 35px;
+        height: 35px;
+      }
+    }
+  }
+  &__link{
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+}

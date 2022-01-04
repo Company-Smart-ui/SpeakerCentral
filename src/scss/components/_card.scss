@@ -1,1 +1,36 @@
- 
+.card{
+  &:hover{
+    border: 2px solid #C853F8 !important;
+  }
+  .btn{
+    &:hover{
+      background: #CD38CD !important;
+    }
+    @include md{
+      &:hover{
+        background: #C853F8 !important;
+      }
+    }
+  }
+  &__info{
+    h3{
+      font-size: 26px;
+      @include sm{
+        font-size: 33px;
+      }
+    }
+    p{
+      color: #7B7D95;
+      font-size: 15px;
+      @include sm{
+        font-size: 17px;
+
+      }
+    }
+  }
+  &__skills{
+    strong{
+      margin-left: -20px;
+    }
+  }
+}

@@ -3,9 +3,8 @@ $nav-bgc:rgba(0, 0, 0, 0.322);
 $nav-hover:rgb(170, 81, 81);
 
 
-
 .nav {
-    color: white;
+    color: rgb(0, 0, 0);
     width: 100%;
 
     @include nav-desktop {
