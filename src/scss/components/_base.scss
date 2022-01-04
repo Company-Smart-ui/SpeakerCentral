@@ -226,6 +226,17 @@ button{
 }
 
 
+.border-end-light{
+  border-right: 1px solid #dee2e661 !important;
+}
+.border-md-end-light{
+  @include md{
+    border-right: 1px solid #dee2e661 !important;
+  }
+}
+.border-bottom-light{
+  border-bottom: 1px solid #dee2e661 !important;
+}
 .border-gray-10{
   border-color: #ADADAD !important;
 }
@@ -309,6 +320,9 @@ button{
 .max-w-105{
   max-width: 105px;
 }
+.max-w-130{
+  max-width: 130px !important;
+}
 .max-w-200{
   max-width: 200px;
 }
@@ -374,5 +388,15 @@ button{
 .fs-sm-60{
   @include sm{
     font-size: 60px;
+  }
+}
+
+
+.swiper-pagination-bullet{
+  display: none !important;
+  width: 12px !important;
+  height: 12px !important;
+  @include md{
+    display: inline-block !important;
   }
 }
