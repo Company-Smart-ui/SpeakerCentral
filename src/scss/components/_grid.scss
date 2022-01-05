@@ -19,6 +19,13 @@
    padding-left: 15px;
 }
 
+.col-xl-46 {
+   @include xl{
+      width: 46%;
+      flex: 0 0 46%;
+      max-width: 46%;
+   }
+}
 @mixin cols ($s , $m) {
    @media (min-width:$m){
       @for $i from 1 to 13 { 
