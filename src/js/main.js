@@ -6,7 +6,7 @@ const navBtn=document.querySelector(".nav__btn");
  
 window.onload= function(){
   pagescroll(); 
-}  ;
+};
  
       @@include('modules/nav.js') 
       @@include('modules/fixed-header.js')

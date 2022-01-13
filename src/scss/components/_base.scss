@@ -657,14 +657,11 @@ button{
 }
 
 
-
-
-
 .swiper-pagination-bullet{
-  display: none !important;
-  width: 12px !important;
-  height: 12px !important;
+  width: 9px !important;
+  height: 9px !important;
   @include md{
-    display: inline-block !important;
+    width: 12px !important;
+    height: 12px !important;
   }
 }
